@@ -1,4 +1,4 @@
-# ビルドディレクトリ
+# Build directories
 build/
 cmake-build-*/
 
@@ -15,7 +15,7 @@ graph_info.json
 *.swo
 *~
 
-# 実行ファイル
+# Executables
 carla_sample
 *.exe
 
