@@ -1,0 +1,13 @@
+[requires]
+libcarla/0.10.0
+
+[generators]
+CMakeDeps
+CMakeToolchain
+
+[options]
+libcarla/*:with_client=True
+libcarla/*:with_server=False
+
+[layout]
+cmake_layout
